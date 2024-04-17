@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myeidia/templates/Home.dart';
 
-
 void main() {
   runApp(MyApp());
 }
@@ -9,6 +8,8 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Home();
+    return MaterialApp(
+      home: Home(),
+    );
   }
 }
